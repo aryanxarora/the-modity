@@ -21,7 +21,7 @@
 
 .spacer-s {
   width: 100%;
-  height: 60px;
+  height: 10%;
 }
 
 .wrapper {
@@ -32,10 +32,10 @@
 
 .navbar {
   position: relative;
-  top: 50px;
+  top: 5%;
   display: flex;
   justify-content: space-between;
-  padding: 0px 100px;
+  padding: 0px 7%;
 }
 
 .modity-logo {
@@ -61,6 +61,7 @@
   color: white;
   font-weight: 200;
   transition: 0.3s ease;
+  letter-spacing: 2px;
 }
 
 .navbar ul li a:hover {
@@ -76,12 +77,25 @@
 .heading h1 {
   font-family: 'jaapokki';
   color: white;
-  font-size: 128px;
+  font-size: 790%;
   line-height: 120px;
 }
 
+.heading h1 span {
+  font-family: 'jaapokki';
+}
+
+
 .heading .indent {
   padding-left: 350px;
+}
+
+.heading h1 .m1 {
+  color: #116F5D;
+}
+
+.heading h1 .m2 {
+  color: #1ABC9C;
 }
 
 .heading p {
@@ -92,6 +106,7 @@
   position: absolute;
   right: 130px;
   bottom: 70px;
+  letter-spacing: 1px;
 }
 
 .services {
@@ -106,6 +121,13 @@
   font-weight: 300;
   color: white;
   font-family: 'helvetica';
+  transition: 0.5s ease;
+}
+
+.services .item:hover {
+  border: 1px solid white;
+  color: black;
+  background-color: white;
 }
 
 .services .extended {
