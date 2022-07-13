@@ -77,7 +77,7 @@
 .heading h1 {
   font-family: 'jaapokki';
   color: white;
-  font-size: 790%;
+  font-size: 128px;
   line-height: 120px;
 }
 
@@ -132,4 +132,88 @@
 
 .services .extended {
   padding-right: 200px;
+}
+
+.heading-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  
+  .heading-mobile {
+    display: block;
+  }
+
+  .spacer-s {
+    display: none;
+  }
+
+  .heading-mobile h1 {
+    font-family: 'jaapokki';
+    color: white;
+    line-height: 45px;
+    font-size: 45px;
+    padding: 0px 30px;
+  }
+
+  .heading-mobile p {
+    font-family: 'helvetica';
+    font-size: 20px;
+    font-weight: 200;
+    color: yellow;
+    padding: 20px 30px 50px 30px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    padding:  0px 30px;
+    align-items: center;
+  }
+
+  .navbar ul li a {
+    font-size: 12px;
+  }
+
+  .modity-logo {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .heading {
+    padding: 0;
+    display: none;
+  }
+
+  .services {
+    flex-direction: column;
+    padding: 0px 30px;
+  }
+
+  .services br {
+    content: " ";
+    display: none;
+  }
+
+  .services .item {
+    padding-right: 200px;
+    font-size: 25px;
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .wrapper {
+    transform: scale(1);
+    overflow: hidden;
+  }
+
+  .heading h1 {
+    font-size: 600%;
+    line-height: 100px;
+  }
+
+  .heading p {
+    bottom: 50px;
+  }
 }
