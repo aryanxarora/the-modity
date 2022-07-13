@@ -205,7 +205,6 @@
 @media screen and (max-width: 1180px) {
   .wrapper {
     transform: scale(1);
-    overflow: hidden;
   }
 
   .heading h1 {
