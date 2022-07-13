@@ -144,6 +144,10 @@
     display: block;
   }
 
+  .spacer {
+    height: 70px;
+  }
+
   .spacer-s {
     display: none;
   }
@@ -161,7 +165,7 @@
     font-size: 20px;
     font-weight: 200;
     color: yellow;
-    padding: 20px 30px 50px 30px;
+    padding: 20px 30px 30px 30px;
   }
 
   .navbar {
@@ -205,6 +209,7 @@
 @media screen and (max-width: 1180px) {
   .wrapper {
     transform: scale(1);
+    overflow: scroll;
   }
 
   .heading h1 {
